@@ -1,0 +1,39 @@
+.restaurant-details-card-container {
+    width: 30%;
+}
+
+.restaurant-details-card-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurant-details-card-image {
+    border-radius: 12px;
+    padding: 5px;
+    height: 150px;
+    object-fit: cover;
+    width: fit-content;
+}
+
+.restaurant-details-card-title-container,
+.restaurant-details-card-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.restaurant-details-card-description {
+    width: 60%;
+}
+
+.restaurant-details-card-price {
+    text-align: right;
+}
+
+.restaurant-details-card-rating {
+    background-color: rgb(36, 150, 63);
+    color: white;
+    padding: 2px 10px;
+    display: flex;
+}
